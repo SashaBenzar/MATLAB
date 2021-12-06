@@ -1,0 +1,35 @@
+a = [ input('a[0,0]=') input('a[0,1]='); input('a[1,0]=') input('a[1,1]=') ];
+b = [ input('b[0,0]=') input('b[0,1]='); input('b[1,0]=') input('b[1,1]=') ];
+c = [-1 -2 1; 3 -3 -3];
+f = [0 0; 0 4; 3 -5];
+g = [3 -2 3; 3 -1 -4];
+h = [-4 0 3; 1 -2 2; 2 -1 3];
+
+f1 = -5 * a;
+f2 = a - b;
+f3 = -5 * a -4 * b;
+f4 = g';
+f5 = f - g';
+f6 = a * b;
+f7 = b * a;
+f8 = c * f;
+f9 = g * h;
+
+fprintf('-5A=\n');
+disp(f1);
+fprintf('A-B=\n');
+disp(f2);
+fprintf('-5A-4B=\n');
+disp(f3);
+fprintf('G^T=\n');
+disp(f4);
+fprintf('F-G^T=\n');
+disp(f5);
+fprintf('AB=\n');
+disp(f6);
+fprintf('BA=\n');
+disp(f7);
+fprintf('CF=\n');
+disp(f8);
+fprintf('GH=\n');
+disp(f9);
